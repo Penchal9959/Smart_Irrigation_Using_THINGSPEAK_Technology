@@ -1,2 +1,2 @@
-# Smart-irrigation-using-THINGSPEAK-technology
-Smart irrigation system using thingspeak technology is mainly helpful for the farmer to monitor the crop fields. Thingspeak is a platform, we can login with our email and password. We can see the water level present in the soil and also, control will goes to the motor pump whenever the water level is less than the required level.
+# Smart-Irrigation-using-THINGSPEAK-technology
+Smart Irrigation system using thingspeak technology is mainly helpful for the farmer to monitor the crop fields. Thingspeak is a platform, we can login with our matlab credentials.this system highly used in Mushroom cultivation because Mushroom cultivation is complete done in a perticuler Room, so this system will monitor the room Humidity, temperature, light and AirQuality. the hole process is we can monitor from any where in the world with help of Thingspeak platform.
