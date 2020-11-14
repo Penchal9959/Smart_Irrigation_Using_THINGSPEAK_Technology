@@ -3,15 +3,15 @@ Smart Irrigation system using thingspeak technology is mainly helpful for the fa
 
 Components:
 
-NodeMCU
-DHT11 Temperature Sensor
-Rain Water Sensor
-Dumper
-DC Motor
-9V Battery
+1.NodeMCU
+2.DHT11 Temperature Sensor
+3.Rain Water Sensor
+4.Dumper
+5.DC Motor
+6.9V Battery
 
 Skills Used:
 
-Arduino IDE
-Thingspeak service
-Matlab Credentials
+1.Arduino IDE
+2.Thingspeak service
+3.Matlab Credentials
