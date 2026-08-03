@@ -1,0 +1,26 @@
+# Credentials — never commit
+secrets.h
+*.local.h
+.env
+
+# Arduino build output
+build/
+*.hex
+*.elf
+*.bin
+*.o
+*.d
+
+# ModelSim / Quartus / Vivado leftovers
+work/
+transcript
+*.wlf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*~
+*.swp

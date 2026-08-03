@@ -1,3 +1,4 @@
+#include "secrets.h"   // copy secrets.example.h -> secrets.h and fill in your own values
  #include <DHT.h>  
  #include <ESP8266WiFi.h>  
  #include <WiFiClient.h>  

@@ -15,3 +15,25 @@ Skills Used:
 1.Arduino IDE
 2.Thingspeak service
 3.Matlab Credentials
+
+
+---
+
+> **Superseded.** This project now lives in
+> [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects) alongside eleven
+> other builds.
+
+## Credentials
+
+WiFi and ThingSpeak credentials are not stored in this repository. To build:
+
+```bash
+cp secrets.example.h secrets.h    # then edit secrets.h with your own values
+```
+
+`secrets.h` is gitignored.
+
+> **Security note.** Earlier versions of this repository contained a hardcoded WiFi password and a
+> ThingSpeak write API key. Both have been purged from the entire git history and the exposed
+> values rotated. They were public between 2022 and 2026, so treat the old values as compromised
+> regardless.
