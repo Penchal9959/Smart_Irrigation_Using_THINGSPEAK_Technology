@@ -1,4 +1,17 @@
-# Smart_irrigation_using_THINGSPEAK_technology
+# Smart Irrigation Controller
+
+> **This repository is archived.** The reviewed and corrected version
+> of this project lives in [embedded-iot-projects / smart-irrigation](https://github.com/Penchal9959/embedded-iot-projects/tree/main/smart-irrigation), alongside the
+> others from the same series. Work happens there; nothing here changes.
+
+### Why you want the maintained copy
+
+A WiFi SSID and password and a ThingSpeak write API key were hard-coded here. They have been removed from this repository's history; the maintained copy reads them from a `secrets.h` that is not committed. The ThingSpeak channel those keys belonged to has since been deleted.
+
+---
+
+## Original description
+
 Smart Irrigation System using Thingspeak technology is mainly helpful for the farmer to monitor the crop fields. Thingspeak is a platform, we can log in with our Matlab credentials. this system highly used in Mushroom cultivation because Mushroom cultivation is completely done in a particular Room, so this system will monitor room Humidity, temperature, light, and AirQuality. the whole process is we can monitor from anywhere in the world with help of the Thingspeak platform.
 
 Components:
