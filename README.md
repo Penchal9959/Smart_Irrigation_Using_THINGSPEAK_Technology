@@ -21,7 +21,7 @@ Components:
 3.Rain Water Sensor
 4.Dumper
 5.DC Motor
-6.9V Battery
+6.9 V Battery
 
 Skills Used:
 
