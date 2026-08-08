@@ -1,52 +1,38 @@
 # Smart Irrigation Controller
 
-> **This repository is archived.** The reviewed and corrected version
-> of this project lives in [embedded-iot-projects / smart-irrigation](https://github.com/Penchal9959/embedded-iot-projects/tree/main/smart-irrigation), alongside the
-> others from the same series. Work happens there; nothing here changes.
+> **Archived.** The reviewed and corrected version of this project lives in
+> [embedded-iot-projects / smart-irrigation](https://github.com/Penchal9959/embedded-iot-projects/tree/main/smart-irrigation), alongside the others from the same series. Work happens there;
+> nothing here changes.
 
-### Why you want the maintained copy
+## What this was
 
-A WiFi SSID and password and a ThingSpeak write API key were hard-coded here. They have been removed from this repository's history; the maintained copy reads them from a `secrets.h` that is not committed. The ThingSpeak channel those keys belonged to has since been deleted.
+A soil-moisture and climate monitor that logs to ThingSpeak over WiFi, so a
+growing room can be checked from anywhere. It was built for mushrooms, which
+care about humidity more than most crops.
 
----
+This is the one project in the series that uses a NodeMCU rather than an
+Arduino UNO, because it needs WiFi.
 
-## Original description
+## Hardware
 
-Smart Irrigation System using Thingspeak technology is mainly helpful for the farmer to monitor the crop fields. Thingspeak is a platform, we can log in with our Matlab credentials. this system highly used in Mushroom cultivation because Mushroom cultivation is completely done in a particular Room, so this system will monitor room Humidity, temperature, light, and AirQuality. the whole process is we can monitor from anywhere in the world with help of the Thingspeak platform.
+NodeMCU (ESP8266), soil moisture probe, DHT11 temperature and humidity sensor,
+relay-driven pump.
 
-Components:
+## Known defects
 
-1.NodeMCU
-2.DHT11 Temperature Sensor
-3.Rain Water Sensor
-4.Dumper
-5.DC Motor
-6.9 V Battery
+A WiFi SSID and password and a ThingSpeak write API key were hard-coded here.
+All three have been removed from this repository's history. The maintained
+copy reads them from a `secrets.h` that is not committed, with a
+`secrets.example.h` alongside it. The ThingSpeak channel those keys belonged
+to has since been deleted, which invalidates the key.
 
-Skills Used:
+## Why it was archived
 
-1.Arduino IDE
-2.Thingspeak service
-3.Matlab Credentials
+Twelve one-off repositories of two files each is not a portfolio, it is a
+list. They were consolidated into one maintained repository with the
+documentation and the build check they never had. This one is kept so
+existing links still resolve.
 
+## Licence
 
----
-
-> **Superseded.** This project now lives in
-> [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects) alongside eleven
-> other builds.
-
-## Credentials
-
-WiFi and ThingSpeak credentials are not stored in this repository. To build:
-
-```bash
-cp secrets.example.h secrets.h    # then edit secrets.h with your own values
-```
-
-`secrets.h` is gitignored.
-
-> **Security note.** Earlier versions of this repository contained a hardcoded WiFi password and a
-> ThingSpeak write API key. Both have been purged from the entire git history and the exposed
-> values rotated. They were public between 2022 and 2026, so treat the old values as compromised
-> regardless.
+[MIT](LICENSE)
